@@ -1,22 +1,19 @@
+// Static method & Instance method
 
 public class Example {
-
 	public static void main(String[] args) {
 		printS("static method");
 		Example myReview = new Example();
 		myReview.print("instance method");
 		stringArray();
 	}
-	
 	void print(String data) {
 		System.out.println(data);
 	}
-	
 	static void printS(String data) {
 		String myName = "Will";
 		System.out.println(data + " " + myName);
 	}
-	
 	static void stringArray() {
 		String[] breakfast = new String[3];
 		breakfast[0] = "eggs";
@@ -36,5 +33,4 @@ public class Example {
 			System.out.println("both statements are not true");
 		}
 	}
-
 }
